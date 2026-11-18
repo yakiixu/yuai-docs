@@ -4,10 +4,10 @@ export default defineConfig({
   lang: "zh-CN",
   title: "yuai 文档",
   description: "Yuai 模型网关接入指南：Claude Code、Codex、OpenCode、HTTP API 与 SDK。",
-  base: "/yuai-docs/",
+  base: "/",
   cleanUrls: false,
   head: [
-    ["link", { rel: "icon", type: "image/svg+xml", href: "/yuai-docs/brand/favicon.svg" }],
+    ["link", { rel: "icon", type: "image/svg+xml", href: "/brand/favicon.svg" }],
     ["meta", { name: "theme-color", content: "#f4f6f5", media: "(prefers-color-scheme: light)" }],
     ["meta", { name: "theme-color", content: "#101c1f", media: "(prefers-color-scheme: dark)" }],
   ],
